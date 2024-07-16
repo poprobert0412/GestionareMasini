@@ -1,0 +1,81 @@
+/* Albastru pentru navbar */
+.navbar {
+    background-color: #0000FF !important; /* Albastru */
+}
+
+/* Roșu pentru butonul de logout */
+.logout-button {
+    background-color: #AC1E44;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #8C1A37; /* Roșu închis pentru hover */
+}
+
+/* Negru pentru titlu */
+.heading-title {
+    color: #000000; /* Negru */
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: -4px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Alte stiluri */
+.spaced-top-5 {
+    margin-top: 5em;
+}
+
+.spaced-top-2 {
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* Roșu pentru butonul custom */
+.btn-custom {
+    font-weight: bold;
+    background-color: #AC1E44;
+    padding: 10px 40px;
+    border: 2px solid #AC1E44;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #FFFFFF;
+    color: #AC1E44;
+}
+
+/* Invers pentru butonul custom */
+.btn-custom-reverse {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border: 2px solid #AC1E44;
+    color: #AC1E44;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom-reverse:hover {
+    background-color: #AC1E44;
+    color: #FFFFFF;
+}
+
+/* Alb pentru logo */
+.brand-logo {
+    color: #FFFFFF;
+    font-size: 1.6em;
+    font-weight: bold;
+}
