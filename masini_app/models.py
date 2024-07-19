@@ -22,3 +22,7 @@ class Products(models.Model):
 
     def __str__(self):
         return self.name
+
+class Users(models.Model):
+    username = models.CharField(max_length=30)
+    password = models
