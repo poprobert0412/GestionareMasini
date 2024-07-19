@@ -1,6 +1,8 @@
 #IN CADRUL ACESTUI FISIER DEFINIM RUTELE APLICATIEI NOASTRE masini
 #FISIER CREAT DE NOI CA SA PUTEM DEFINII RUTELE RESPECTIVE DE URL
 
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path #IMPORTAM DIN DJANGO FUCNTIA DE URL CU PATH
 from masini_app.views import home_view, product_upload, ProductListView, product_details
 
@@ -14,4 +16,5 @@ urlpatterns = [
     path('products/', ProductListView.as_view(), name='products'),
     path('product/<int:product_id>', product_details, name='product'), #Trebuie prezicat <int:product_id> pentru ca este un numar intreg
     #Si asa acesam un anumit product in url
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
