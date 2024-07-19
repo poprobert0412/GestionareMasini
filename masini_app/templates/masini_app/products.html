@@ -1,4 +1,4 @@
-{% extends "sweet_market_place18_app/base.html" %}
+{% extends "masini_app/base.html" %}
 
 {% block content %}
     <div class="container">
@@ -23,6 +23,7 @@
                         <h5 class="card-title">{{ product.name }}</h5>
                         <p class="card-text">{{ product.description }}</p>
                         <p class="card-text">Price: {{ product.price }} euro</p>
+                        <p class="card-text">Horse Power: {{ product.horse_power }}</p>
                         <a href="#">
                             <button class="btn-custom spaced-top-2">See details</button>
                         </a>

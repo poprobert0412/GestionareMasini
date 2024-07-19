@@ -19,3 +19,4 @@ class ProductForm(forms.ModelForm):
             'color',
             'image'
         ]
+#Dupa terminarea forms.py mergem in view.py ca sa scriem functia product_upload
